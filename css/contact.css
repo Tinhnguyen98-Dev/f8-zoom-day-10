@@ -532,7 +532,6 @@ h6 {
 
 .header__menu li:hover .header__item {
     color: var(--primary-color);
-    transition: all 0.3s ease;
 }
 
 .footer__info--descrip {
