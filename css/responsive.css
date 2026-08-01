@@ -83,8 +83,10 @@
 
 @media (max-width: 767.98px) {
     .container {
-        width: 96%;
-        margin: 0 15px;
+        width: 100%;
+        max-width: 720px;
+        padding-inline: 15px;
+        margin: 0 auto;
     }
 }
 
@@ -97,6 +99,18 @@
 
 @media (max-width: 575.98px) {
     .sidebar-responsive .form-sidebar {
+        width: 100%;
+    }
+
+    .courses-list {
+        --column: 1;
+    }
+
+    .content-sidebar__responsive {
+        flex-direction: column;
+    }
+
+    .sidebar-responsive .content-sidebar {
         width: 100%;
     }
 }

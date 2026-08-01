@@ -165,7 +165,7 @@ a {
 }
 
 .btn-search .btn {
-    padding: 0 14px;
+    position: relative;
     line-height: 48px;
 }
 
@@ -174,8 +174,8 @@ a {
 } */
 
 .btn-search .check-box {
-    position: relative;
     display: inline-block;
+    padding: 0 14px;
     line-height: 48px;
     cursor: pointer;
 }
